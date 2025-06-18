@@ -19,5 +19,5 @@ A responsive React-based portfolio showcasing my front-end projects and skills.
 
 ## 📬 Contact
 - 📧 Email: nalinanandu995@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/nalina-p-b306b213a/)
-- 💻 [GitHub](https://github.com/NalinaRanjan)
+- 💼 https://www.linkedin.com/in/nalina-p-b306b213a/
+
