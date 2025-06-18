@@ -1,0 +1,114 @@
+/* Portfolio.css */
+.portfolio-wrapper {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-header {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-inner nav a {
+    margin-right: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    padding: 5rem 1rem;
+  }
+  
+  .projects {
+    background-color: #f9fafb;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .projects h3,
+  .skills h3,
+  .contact h3 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .contact-icons a {
+    color: #4b5563;
+    text-decoration: none;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 1.5rem;
+    background-color: #f3f4f6;
+    color: #6b7280;
+  }
+  

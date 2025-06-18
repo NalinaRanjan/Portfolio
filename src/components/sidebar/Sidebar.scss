@@ -1,0 +1,35 @@
+/* Sidebar.scss */
+.sidebar{
+    .MuiDrawer-paper {
+        background-color: black !important;
+    }
+    
+    .MuiListItemButton {
+        color: lightgray;
+        transition: color 0.3s;
+        
+        &:hover {
+            color:#ffbd00;
+            background-color: black;
+        }
+    }
+    
+    .MuiTypography-root,
+    .MuiListItemIcon-root,
+    .MuiSvgIcon-root {
+        color: white;
+    }
+    
+    // .MuiSvgIcon-root:hover {
+    //     color: #ffbd00;
+    // }
+    
+    
+    .MuiList-root {
+        &:hover {
+            background-color: #ffbd00;
+            padding: 5px;
+            transition: 0.3s;
+        }
+    }
+}

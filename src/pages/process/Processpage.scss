@@ -1,0 +1,110 @@
+
+
+.processpage {
+    display: flex;
+
+    body {
+        overflow: hidden;
+       
+    }
+    .processpagecontainer {
+        flex: 6;
+
+        .processpage {
+            align-items: center;
+            background-color: #efefefad;
+            border: 1px solid lightgray;
+            gap: 30px;
+            color: rgb(106, 105, 105);
+
+            .icon {
+                color: #962067;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .num {
+                color: rgb(106, 105, 105);
+                margin-left: 10px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            .name {
+                color: #962067;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .txt {
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            .usericon {
+                border: 1px solid;
+                border-radius: 50%;
+                padding: 6px;
+                background-color: #eedbed;
+            }
+        }
+
+        .processpagebody {
+            display: flex;
+            margin: 10px;
+            padding: 0px;
+            gap: 10px;
+            // min-height: 80vh;
+
+            .processpagebodyright {
+                flex: 2;
+                overflow-y: auto;
+                height: 80vh;
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+                border-radius: 10px;
+                padding: 15px;
+                // min-height: 100vh;
+                // overflow-y: auto; /* Add overflow for individual sections */
+                scrollbar-width: thin;
+            }
+
+            .processpagebodyleft {
+                flex: 6;
+                overflow-y: auto;
+                height: 80vh;
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+                border-radius: 10px;
+                padding: 15px;
+                scrollbar-width: thin;
+                
+                
+                // min-height: 100vh;
+                // overflow-y: auto; /* Add overflow for individual sections */
+               
+                button {
+                    margin-top: 10px;
+                }
+
+                h2 {
+                    color: #962067;
+                    font-size: 30px;
+                }
+            }
+
+            .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+                color: green;
+            }
+
+            .Mui-active {
+                color: #962067;
+            }
+
+            .formbtn {
+                background-color: #962067;
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pageheaderdiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+    /* justify-content: space-around; */
+    color: #962067;
+    font-weight:bold ;
+    cursor: pointer;
+   
+  }
+  
+  .navbarcontent {
+    margin-left: 8px; /* Adjust as needed */
+    cursor: pointer; /* To indicate the element is clickable */
+  }
+  
+.active {
+   border-bottom: 2px solid #962067;;
+    font-weight: bold;
+    
+  }
+  .Activelistcontent
+  .leftsidecontent, .rightsidecontent {
+    width: 100%; /* Take full width on small screens */
+    display: grid!important;
+    
+  }
+  .leftsidecontent{
+    gap: 25px;
+  }
+  @media (min-width: 992px) {
+    .leftsidecontent {
+      width: 100%; /* Adjust width as needed for larger screens */
+      display: flex!important;
+    }
+  
+    .rightsidecontent {
+      /* width: 40%; Adjust width as needed for larger screens */
+      display: flex !important;
+    }
+    
+    .rightsidecontent .pageheaderdiv {
+        
+        margin-right: 12px;
+    }
+  }
+  
+  .datepicker-input {
+    width: 100%; 
+    padding: 0.375rem 0.75rem; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+    border-radius: 0.25rem; 
+    border: 1px solid #ced4da;
+  }
+  .material-symbols-outlined,.primarycolor{
+    color: #962067;
+  }
+  td span.usericon {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #eedbed;
+}
+.advancedSearch {
+  outline: none;
+  height: 37px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 95px;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
