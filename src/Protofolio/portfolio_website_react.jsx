@@ -93,10 +93,10 @@ company news and announcements.
             <a href="mailto:nalinanandu995@gmail.com">
               <Mail />
             </a>
-            <a href="https://github.com/NalinaRanjan/" target="_blank">
+            <a href="https://github.com/NalinaRanjan/" target="_blank" rel="noreferrer">
               <Github />
             </a>
-            <a href="https://www.linkedin.com/in/nalina-p-b306b213a/" target="_blank">
+            <a href="https://www.linkedin.com/in/nalina-p-b306b213a/" target="_blank" rel="noreferrer">
               <Linkedin />
             </a>
           </div>
